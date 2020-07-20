@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="C:/Developer/_Git_/HomeSeleniumTest/src/test/java/Actions/LearnSelenium.java"><classes><class name="Actions.LearnSelenium"><methods><include name="checkPageTitle"/><include name="insertintoTextboxes"/><include name="handleSkillsDropdownMenu"/><include name="handleCountryDropdown"/><include name="handleCheckbox"/><include name="validationMessage"/></methods></class></classes></test></suite>
