@@ -62,7 +62,7 @@ class SeleniumTest extends HomepageActions {
         System.out.println("Starting test getLogin");
         WebElement emailfield = driver.findElement(By.id("email"));
         emailfield.click();
-        emailfield.sendKeys("");
+        emailfield.sendKeys("ttt");
         String actuallogin = emailfield.getAttribute("value");
         Assert.assertEquals(actuallogin, "");
         WebElement passfield = driver.findElement(By.id("pass"));
